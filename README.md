@@ -1,5 +1,1 @@
-###### NOTES #########
-
-What is DevOps?
-DevOps is a process of improving the app delivery by ensuring there is a proper automation with a code quality that is maintained and ensuring there is a continuous monitoring and testing in place
-
+Hello, I am Jun Man, a self learned DevOps Engineer. My goal is to successfully trasnfer to a full time DevOps engineer in 2024
