@@ -1,0 +1,12 @@
+#### AWS CLI Commands ####
+ 
+aws configure 
+- To enable connection from local computer to your AWS account
+
+aws s3 ls 
+- to list all S3 buckets in your AWS account
+
+aws s3 mb xxxx
+- to create a s3 bucket, mb = make bucket
+
+Refer from AWS CLI website for some important commands
