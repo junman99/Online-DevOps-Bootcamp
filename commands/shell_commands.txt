@@ -1,0 +1,10 @@
+#### Shell Scripting ####
+
+sh file1.txt 
+- sh command is used to execute shell script 
+
+chmod 
+- to grant user permission
+- first 3 number is permission of root
+- second 3 number is group permission
+- third 3 number is all user permission
