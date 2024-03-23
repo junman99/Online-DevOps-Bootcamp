@@ -8,3 +8,6 @@ chmod
 - first 3 number is permission of root
 - second 3 number is group permission
 - third 3 number is all user permission
+
+ls -ltr
+- to list items with timestamp and permission
