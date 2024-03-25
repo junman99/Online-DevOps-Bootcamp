@@ -11,3 +11,21 @@ chmod
 
 ls -ltr
 - to list items with timestamp and permission
+
+curl 
+- to retrieve info from a website
+
+wget 
+- to download infomration from a website
+
+find (eg. sudo find / -name xxx)
+- to find files within our entire system
+
+trap
+- to trap signals in linux machine
+
+ps -ef 
+- to list all processes
+
+vim -r test.txt
+- to open a file in read-only mode 

@@ -3,3 +3,26 @@
 What is DevOps?
 DevOps is a process of improving the app delivery by ensuring there is a proper automation with a code quality that is maintained and ensuring there is a continuous monitoring and testing in place
 
+What is the difference between soft and hard link?
+hard link creates a copy of a file, it will still exist if the original find was deleted
+soft link will not be opened if the original file was deleted
+
+What is the difference between break and continue statements
+break - breaking the execution
+continue - continuing the execution (skip this and continue the next)
+
+What are the disadvantages of Shell Scripting
+Slow execution speed
+errors are frequent and costly, and a single error can alter the command
+
+is bash dynamic or statically typed and why?
+statically typed means required to define the type of variable when declaring, dyanamically does not 
+
+What is a network troubleshooting utility command used
+traceroute or tracepath
+
+How to sort list of names in a file
+sort - command to sort files
+
+How to manage logs of a system that generate huge log files everyday 
+logrotate - to maintain latest logs within a timeframe
