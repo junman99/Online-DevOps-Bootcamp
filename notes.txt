@@ -3,6 +3,9 @@
 What is DevOps?
 DevOps is a process of improving the app delivery by ensuring there is a proper automation with a code quality that is maintained and ensuring there is a continuous monitoring and testing in place
 
+When VM is slow what to do？
+Check on CPU with 'nproc' command, RAM with 'free' command or top 
+
 What is the difference between soft and hard link?
 hard link creates a copy of a file, it will still exist if the original find was deleted
 soft link will not be opened if the original file was deleted

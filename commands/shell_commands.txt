@@ -12,6 +12,9 @@ chmod
 ls -ltr
 - to list items with timestamp and permission
 
+set -x
+- debug mode, to show the output together with commands
+
 curl 
 - to retrieve info from a website
 
@@ -24,8 +27,8 @@ find (eg. sudo find / -name xxx)
 trap
 - to trap signals in linux machine
 
-ps -ef 
-- to list all processes
+ps -ef | grep "amazon"
+- to list all processes in our system, to find only "amazon" running processes
 
 vim -r test.txt
 - to open a file in read-only mode 
