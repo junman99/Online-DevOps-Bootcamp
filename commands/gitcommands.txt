@@ -1,0 +1,23 @@
+#### Git Commands ####
+
+git init
+to create a git repo
+
+git status
+to check on github status, to check if any files are untrack etc
+
+git diff
+to check on changes of files
+
+git commit -m "comment"
+to commit changes
+
+git add xxx.sh
+to add the files to be tracked by git 
+
+git log 
+to check on file versions
+
+git reset --hard git_version_number
+to roll back to previous commit/versions
+
