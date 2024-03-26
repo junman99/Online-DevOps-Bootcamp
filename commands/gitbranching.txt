@@ -17,3 +17,15 @@ to create a copy of the repo
 
 git checkout -b division
 to create a new branch called division
+
+git checkout 
+to switch between branches
+
+git merge 
+merging main and branch in a parallel mode commit history for branch
+
+git rebase 
+to have all commit hisotry (linear merge)
+
+git cherry-pick "branch commit ID"
+to merge code to main brach based on specific branch commit ID
