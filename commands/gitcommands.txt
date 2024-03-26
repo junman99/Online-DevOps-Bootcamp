@@ -1,7 +1,7 @@
 #### Git Commands ####
 
 git init
-to create a git repo
+to create a git repo in local
 
 git status
 to check on github status, to check if any files are untrack etc
@@ -16,8 +16,14 @@ git add xxx.sh
 to add the files to be tracked by git 
 
 git log 
-to check on file versions
+to check on file versions and previous commits
 
 git reset --hard git_version_number
 to roll back to previous commit/versions
+
+git remote -v 
+to check where my code's remote referece is at 
+
+git remove add 
+to add repo from local to github if its not existing in github
 

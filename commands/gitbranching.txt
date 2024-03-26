@@ -1,0 +1,19 @@
+#### Git Branching Strategy ####
+
+master/main branch 
+baseline branch
+
+feature branch
+a seperate branch to work on new features before merging to master/main branch
+
+release branch 
+to perform testing ship the final product to customer, to prevent further changes applied
+
+git clone
+to download a repo
+
+git fork
+to create a copy of the repo
+
+git checkout -b division
+to create a new branch called division
