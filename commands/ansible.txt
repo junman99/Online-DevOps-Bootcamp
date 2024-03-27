@@ -1,0 +1,18 @@
+#### Confuguration Management with Ansible ####
+
+Commonly used for 
+1. Upgrades
+2. Secure patches
+3. Installations
+
+Why Ansible over other Puppet 
+1. Puppet
+    - pull mechanism 
+    - master/slave, to create a master server and add in individual instance as slave
+    - puppet language
+
+2. Ansible 
+    - push mechanism
+    - agentless, use inventory file to add instances with IP address
+    - YAML language 
+    - can write Ansible module and upload to Ansible Galaxy for others to use
