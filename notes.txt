@@ -29,3 +29,21 @@ sort - command to sort files
 
 How to manage logs of a system that generate huge log files everyday 
 logrotate - to maintain latest logs within a timeframe
+
+AWS Services for DevOps
+- EC2
+- VPC (SG/CIDR/Inbound/Outbound)
+- EBS (volume)
+- S3 (storage)
+- IAM (Idendity & Access Management)
+- CloudWatch (Monitoring)
+- CloudTrail (stores API logs/activities)
+- Lambda function (serverless)
+- Cloud Build Services (AWS Code Pipeline, AWS Code Build, AWS CodeDeploy)
+- AWS Configuration
+- Billing & Costing
+- KMS (Key management service, enables storing/rotation of secrets/certificates)
+- EKS (managed k8s service by AWS)
+- Fargate, ECS (without K8s)
+- ELK (Elasticsearch)
+
