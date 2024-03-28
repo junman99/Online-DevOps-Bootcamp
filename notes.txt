@@ -48,4 +48,3 @@ AWS Services for DevOps
 - EKS (managed k8s service by AWS)
 - Fargate, ECS (without K8s)
 - ELK (Elasticsearch)
-

@@ -1,2 +1,13 @@
 #### IaC With Terraform ####
 
+To initialise Terraform 
+- terraform init
+
+To perform a dry run
+- terraform plan
+
+To run 
+- terraform apply
+
+To destroy terraform 
+- terraform destroy
