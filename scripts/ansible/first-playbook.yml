@@ -1,0 +1,17 @@
+--- 
+- name: Install and Start nginx # name of playbook
+  hosts: all  # define target servers
+  become: root # define what user, can put specific user eg. junman
+
+  tasks:
+    - name: Install nginx
+      apt:
+        name: nginx
+        apt:              # similar to shell: apt install nginx
+          name: nginx     # better use apt package manager to prevent errors
+          state: present
+    - name: Start nginx
+      service:            # similar to shell: systemctl start nginx
+        name: nginx
+        state: started
+        

@@ -16,3 +16,24 @@ Why Ansible over other Puppet
     - agentless, use inventory file to add instances with IP address
     - YAML language 
     - can write Ansible module and upload to Ansible Galaxy for others to use
+
+how to enable master Ansible server to connect to target server?
+- ssh-keygen in master server, copy public key, paste to target server's "authorised_keys_ file
+
+Ansible adhoc commands
+- ansible -i inventory all -m "shell" -a "nproc"   #to run shell command in all server in inventory file
+
+To run ansible playbook
+- ansible-playbook -i inventory first-playbook.yaml
+
+To debug ansible playbook 
+- ansible-playbook -vv -i inventory first-playbook.yaml
+
+To create roles in Ansible for better structure and efficient playbooks
+- ansible-galaxy role init kubernetes
+
+Ansible playbook example link
+https://github.com/ansible/ansible-examples
+
+Ansible 18 most common interview questions 
+https://www.youtube.com/watch?v=j5PgN0J3d7M&t=4s&ab_channel=Abhishek.Veeramalla
