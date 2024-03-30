@@ -8,6 +8,7 @@ Jenkins plugins used
 - Slack Notification
 - Build Timestamp
 - Amazon ECR
+- Docker Pipeline
 - Docker, Docker build & publish
 - Pipeline: aws steps
 
