@@ -9,6 +9,12 @@ to check on github status, to check if any files are untrack etc
 git diff
 to check on changes of files
 
+git diff --cached
+to check for changes of files that are staged
+
+git diff prev_commit_ID..current_commit_ID
+to check for diff for commited file
+
 git commit -m "comment"
 to commit changes
 
@@ -38,4 +44,13 @@ to see the changes on specific commit
 
 git rm file1.txt
 to rm file and remove from staging area
+
+git checkout file.txt
+to roll back for files that havent commited
+
+git revert HEAD
+to revert back to previous commit
+
+git reset --hard commit_ID
+to rollback without commit history
 
