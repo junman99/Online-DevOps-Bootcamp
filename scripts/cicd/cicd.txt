@@ -7,6 +7,9 @@ Jenkins plugins used
 - SonarQube Scanner
 - Slack Notification
 - Build Timestamp
+- Amazon ECR
+- Docker, Docker build & publish
+- Pipeline: aws steps
 
 Tools used (will appear when plugin is installed)
 - JDK
