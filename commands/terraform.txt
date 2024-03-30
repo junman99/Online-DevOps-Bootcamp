@@ -11,3 +11,10 @@ To run
 
 To destroy terraform 
 - terraform destroy
+
+Output.tf file
+- for users without AWS access, can refer the output of terraform apply in this file 
+
+terraform.tfstate
+- a file which terraform uses to track infra's state
+- to store in backend file and version it with DynamoDB

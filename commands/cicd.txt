@@ -1,0 +1,5 @@
+#### CI/CD with Jenkins ####
+Install Jenkins, expose it to outside 
+configure Docker as slave
+setup CI/CDdeploy app to k8s
+
