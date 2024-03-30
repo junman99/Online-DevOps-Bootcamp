@@ -27,3 +27,15 @@ to check where my code's remote referece is at
 git remove add 
 to add repo from local to github if its not existing in github
 
+git branch -M main 
+to change master branch to main
+
+git push -u origin main 
+to push code to main branch 
+
+git show "commit ID" 
+to see the changes on specific commit 
+
+git rm file1.txt
+to rm file and remove from staging area
+

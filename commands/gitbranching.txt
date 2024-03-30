@@ -29,3 +29,12 @@ to have all commit hisotry (linear merge)
 
 git cherry-pick "branch commit ID"
 to merge code to main brach based on specific branch commit ID
+
+git branch -c branch1
+to create a branch
+
+git branch -a 
+to list all branches
+
+git checkout/switch branch1
+to change to branch1 branch
