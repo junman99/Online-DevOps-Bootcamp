@@ -1,0 +1,13 @@
+#### CI/CD with Jenkins ####
+
+Jenkins plugins used
+- Maven
+- Gthub Intgration
+- Nexus Artifact Uploader
+- SonarQube Scanner
+- Slack Notification
+- Build Timestamp
+
+Tools used (will appear when plugin is installed)
+- JDK
+- Maven
