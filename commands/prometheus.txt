@@ -1,0 +1,10 @@
+#### Prometheus & Grafana ####
+
+Prometheus
+- Prometheus server pulls data from k8s cluster to TSDB (time series DB)
+- data is stored in disc (HDD/SSD)
+- Prometheus alerting can send alerts via email execution
+
+
+Grafana (monitoring service)
+- for data visualisation
