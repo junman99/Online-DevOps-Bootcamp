@@ -1,0 +1,14 @@
+#### Helm commands ####
+
+helm create vprofilecharts
+- to create helm chart
+
+Steps:
+- cd into vprofile charts, 
+- rm all files in templates
+- cp all kubernetes def/service/secret files into template folder
+- define variables in values.yaml file
+- create a namespace (kubectl create namespace test)
+- run helm install (helm install --namesapce test vprofile-stack helm/vprofilecharts --set appimage=junman/vproappdock:9)
+- helm list --namespace test
+- kubectl get all --namespace test 

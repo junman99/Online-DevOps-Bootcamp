@@ -15,3 +15,15 @@ Jenkins plugins used
 Tools used (will appear when plugin is installed)
 - JDK
 - Maven
+
+#### CI/CD with Containers ####
+
+Tools used
+- Kubernetes
+- Docker
+- Jenkins
+- Dockerhub
+- Helm (Packaging and deploying images on k8s)
+- Git 
+- Maven 
+- SonarQube
