@@ -2,6 +2,8 @@
 - name: Provisioning servers
   hosts: all
   become: yes
+  vars:
+    mydir: /opt/dir2
   tasks:
     - name: Install ntp agent on centos 
       yum:
@@ -49,7 +51,7 @@
 
     - name: Create a folder
       file: 
-        path: /opt/test2
+        path: "{{mydie}}"
         state: directory 
 
     - name: Deploy ntp agent conf on centos
@@ -70,6 +72,10 @@
       notify: 
         - reStart service on ubuntu
 
+    - name: Dump file 
+      copy: 
+        src: files/myfile.txt
+        dest: /tmp/myfile.txt
 
   handlers:
     - name: reStart service on centos
