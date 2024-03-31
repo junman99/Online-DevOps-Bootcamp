@@ -49,7 +49,11 @@ ansible-playbook -i inventory web-db.yaml --syntax-check
 ansible-playbook -i inventory web-db.yaml -C
 - dry run to check for any errors before real run 
 
-
+Order of Ansible Config 
+1. ANSIBLE_CONFIG (env variable if set)
+2. ansible.cfg (in current dir)
+3. ~/.ansible.cfg (in the home dir)
+4. /etc/ansible/ansible.cfg (global dir)
 
 
 
