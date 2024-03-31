@@ -1,0 +1,12 @@
+minikube 
+- for local testing and learning (single node)
+
+kubeadm
+- multinode cluster for local/cloud (production grade)
+
+kops
+- cloud AWS/GCP (production grade)
+
+AWS EKS
+- AWS Cloud Kubernetes Service
+
