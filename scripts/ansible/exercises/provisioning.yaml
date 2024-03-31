@@ -47,12 +47,19 @@
         content: '# This server is managed by ansible. No manual changes please.'
         dest: /etc/motd
 
+    - name: Create a folder
+      file: 
+        path: /opt/test2
+        state: directory 
+
     - name: Deploy ntp agent conf on centos
       template:
         src: templates/ntpconf_centos
         dest: /etc/chrony.conf
         backup: yes 
       when: ansible_distribution == "CentOS"
+      notify: 
+        - reStart service on centos
 
     - name: Deploy ntp agent conf on ubuntu
       template:
@@ -60,7 +67,11 @@
         dest: /etc/ntp.conf
         backup: yes 
       when: ansible_distribution == "Ubuntu"
+      notify: 
+        - reStart service on ubuntu
 
+
+  handlers:
     - name: reStart service on centos
       service:
         name: chronyd
