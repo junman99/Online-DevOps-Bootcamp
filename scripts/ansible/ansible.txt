@@ -32,6 +32,26 @@ To debug ansible playbook
 To create roles in Ansible for better structure and efficient playbooks
 - ansible-galaxy role init kubernetes
 
+inventory
+- provide info to Ansible about the targets
+
+ansible web01 -m ping -i inventory
+- to ssh to web01 server
+
+ansible webservers -m ansible.builtin.yum -a "name=httpd state=present" -i inventory --become
+ansible webservers -m ansible.builtin.service -a "name=httpd state=started enabled=yes" -i inventory --become
+ansible webservers -m ansible.builtin.copy -a "src=index.html dest=/var/www/html" -i inventory --become
+- to run ad hoc ansible command
+
+
+
+
+
+
+
+
+
+
 Ansible playbook example link
 https://github.com/ansible/ansible-examples
 
