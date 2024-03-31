@@ -1,5 +1,4 @@
 apiVersion: apps/v1
-kind: apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: vprodb
@@ -18,6 +17,9 @@ spec:
       containers:
       - name: vprodb
         image: vprofile/vprofiledb:V1
+        volumeMounts: 
+          - mountPath: /var/lib/mysql
+            name: vpro-db-data
         ports:
           - name: vprodb-port
             containerPort: 3306
@@ -34,3 +36,8 @@ spec:
           awsElasticBlockStore:
             volumeID: vol-0bcd6bddaa2c9432
             fsType: ext4
+
+      initContainers:
+        - name: busybox
+          image: busybos:latest
+          args: ["rm", "-rf", "/var/lib/mysql/lost+found"]
