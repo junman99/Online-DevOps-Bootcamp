@@ -55,6 +55,9 @@ Order of Ansible Config
 3. ~/.ansible.cfg (in the home dir)
 4. /etc/ansible/ansible.cfg (global dir)
 
+Order of variable priority
+1. playbook var (declared in playbooks)
+2. group_vars/all (in current dir)
 
 
 
