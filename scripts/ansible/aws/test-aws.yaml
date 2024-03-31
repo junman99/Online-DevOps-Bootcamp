@@ -1,0 +1,30 @@
+- hosts: localhost
+  gather_facts: False
+  tasks:
+    - name: Create Key Pair
+      ec2_key:
+        name: sample
+        region: us-east-1
+      register: keyout
+
+#    - name: print key
+#      debug: 
+#        var: keyout
+
+    - name: save key 
+      copy:
+        content: "{{keyout.key.private_key}}"
+        dest: ./sample.pem
+      when: keyout.changed == True
+
+    - name: start an ec2 instance
+     amazon.aws.ec2_instance:
+       name: "public-compute-instance"
+       key_name: "sample"
+       instance_type: t2.micro
+       security_group: default
+       image_id: abc-123
+       exact_count: 1
+       region: us-east-1
+       tags:
+         Environment: Testing

@@ -1,1 +1,8 @@
-nn
+#### 18 Most Asked Ansible Interview Questions ####
+
+1. What is Configuration Management?
+   - Method of managing software, system or hardware. Used to manage and install apps or security patches for multiple servers
+
+2. Write an Ansible Playbook to install httpd service and get it running
+
+https://www.youtube.com/watch?v=j5PgN0J3d7M&t=4s --> continue here 
