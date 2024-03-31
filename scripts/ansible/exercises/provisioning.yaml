@@ -41,3 +41,36 @@
         state: started
         enabled: yes 
       when: ansible_distribution == "Ubuntu"
+
+    - name: Banner file
+      copy:
+        content: '# This server is managed by ansible. No manual changes please.'
+        dest: /etc/motd
+
+    - name: Deploy ntp agent conf on centos
+      template:
+        src: templates/ntpconf_centos
+        dest: /etc/chrony.conf
+        backup: yes 
+      when: ansible_distribution == "CentOS"
+
+    - name: Deploy ntp agent conf on ubuntu
+      template:
+        src: templates/ntpconf_ubuntu
+        dest: /etc/ntp.conf
+        backup: yes 
+      when: ansible_distribution == "Ubuntu"
+
+    - name: reStart service on centos
+      service:
+        name: chronyd
+        state: restarted
+        enabled: yes 
+      when: ansible_distribution == "CentOS"
+
+    - name: reStart service on ubuntu
+      service:
+        name: chronyd
+        state: restarted
+        enabled: yes 
+      when: ansible_distribution == "Ubuntu"
