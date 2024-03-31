@@ -43,9 +43,11 @@ ansible webservers -m ansible.builtin.service -a "name=httpd state=started enabl
 ansible webservers -m ansible.builtin.copy -a "src=index.html dest=/var/www/html" -i inventory --become
 - to run ad hoc ansible command
 
+ansible-playbook -i inventory web-db.yaml --syntax-check
+- to check for syntax error before running the code 
 
-
-
+ansible-playbook -i inventory web-db.yaml -C
+- dry run to check for any errors before real run 
 
 
 
