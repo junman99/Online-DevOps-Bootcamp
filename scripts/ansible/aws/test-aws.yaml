@@ -18,7 +18,7 @@
       when: keyout.changed == True
 
     - name: start an ec2 instance
-     amazon.aws.ec2_instance:
+      amazon.aws.ec2_instance:
        name: "public-compute-instance"
        key_name: "sample"
        instance_type: t2.micro

@@ -13,3 +13,7 @@ variable AMIS {
         us-east-1 = "ami-12345"
     }
 }
+
+variable USER {
+    default = "ec2-user"
+}
