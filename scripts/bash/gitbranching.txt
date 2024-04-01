@@ -39,7 +39,7 @@ to list all branches
 git branch -m
 to rename a branch
 
-git branch -data
+git branch -d
 to delete a branch 
 
 git checkout/switch branch1

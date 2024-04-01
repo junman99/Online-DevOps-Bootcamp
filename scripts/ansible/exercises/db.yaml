@@ -46,4 +46,4 @@
 
     - name: print dbout variable 
       debug:
-        var: dbout
+        var: dboutput

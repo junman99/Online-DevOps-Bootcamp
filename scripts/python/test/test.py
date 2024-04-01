@@ -30,3 +30,9 @@ import math
 def angle(arc_length, radius):
     angle = (arc_length/radius)*(180/math.pi)
     return angle
+
+#### number of s in mississipi ####
+def num_count(word):
+    count = string.count('s')
+    return count 
+    

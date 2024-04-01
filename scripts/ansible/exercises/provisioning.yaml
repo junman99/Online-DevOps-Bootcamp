@@ -51,7 +51,7 @@
 
     - name: Create a folder
       file: 
-        path: "{{mydie}}"
+        path: "{{mydir}}"
         state: directory 
 
     - name: Deploy ntp agent conf on centos
