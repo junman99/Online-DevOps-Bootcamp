@@ -48,3 +48,11 @@ AWS Services for DevOps
 - EKS (managed k8s service by AWS)
 - Fargate, ECS (without K8s)
 - ELK (Elasticsearch)
+
+
+FINAL INTERVIEW PREP 
+- Python coding
+- Prometheus & Grafana
+- Memorising stuff
+- Understand code structure of CI/CD, Ansible and Terraform and their modules 
+- Git commands

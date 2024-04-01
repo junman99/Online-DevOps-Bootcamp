@@ -3,8 +3,14 @@
 To initialise Terraform 
 - terraform init
 
+To check for erros
+- terraform validate
+
 To perform a dry run
 - terraform plan
+
+To format the .tf file
+- terraform fmt
 
 To run 
 - terraform apply
