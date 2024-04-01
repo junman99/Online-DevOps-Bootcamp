@@ -28,5 +28,5 @@ def fib_seq(n):
 import math
 
 def angle(arc_length, radius):
-    angle = (arc_lengh/radius)*(180/math.pi)
+    angle = (arc_length/radius)*(180/math.pi)
     return angle
