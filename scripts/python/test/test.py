@@ -1,6 +1,6 @@
 #### delimit thousands ####
 def format_num(num):
-    fmt_num = {:,}.format(num)
+    fmt_num = '{:,}'.format(num)
     return fmt_num
 
 #### sum of 1-10 ####
