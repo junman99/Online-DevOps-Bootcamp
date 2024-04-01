@@ -34,3 +34,6 @@ variable PRIV_KEY {
     default = "dovekey"
 }
 
+variable MYIP {
+    default = "my ip"
+}

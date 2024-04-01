@@ -1,0 +1,10 @@
+print(type(x))
+- to print out type of variable of 
+
+first_list = [123, "hello"]
+- python list 
+
+first_list = (123, "hello")
+
+first_dict = {"name": "junman", "gender": "male", "age": 24, "interst": ["devops", "sre", "programming"]}
+
