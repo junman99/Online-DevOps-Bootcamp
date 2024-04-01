@@ -10,3 +10,6 @@ kops
 AWS EKS
 - AWS Cloud Kubernetes Service
 
+What are the main components of K8s architecture 
+-
+

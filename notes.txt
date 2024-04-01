@@ -49,6 +49,12 @@ AWS Services for DevOps
 - Fargate, ECS (without K8s)
 - ELK (Elasticsearch)
 
+Interview prep videos:
+https://www.youtube.com/watch?v=3Ex-HtbgvyE
+https://www.youtube.com/watch?v=j5PgN0J3d7M
+https://www.youtube.com/watch?v=VmJpdIOiIaU
+https://www.youtube.com/watch?v=KDh7OpHaXu8
+https://www.youtube.com/watch?v=06QHeTZR-Wg
 
 FINAL INTERVIEW PREP 
 - Python coding

@@ -34,3 +34,6 @@ vim -r test.txt
 - to open a file in read-only mode 
 
 touch test{1..10}.py
+
+git stash 
+- temporarily saving changes 
