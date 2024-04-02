@@ -33,6 +33,6 @@ def angle(arc_length, radius):
 
 #### number of s in mississipi ####
 def num_count(word):
-    count = string.count('s')
+    count = word.count('s')
     return count 
     
